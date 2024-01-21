@@ -2,11 +2,13 @@ html, body {
   background-image: url(https://github.com/cappydino/emails-to-google-contact-group/blob/main/download.jpeg?raw=true);
   background-repeat: no-repeat;
   background-size: cover;
+
   margin: 0;
 }
 
 .centerContent {
   margin: auto;
+  margin-top: 10%;
   width: 100%;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -43,6 +45,7 @@ button {
   padding-right: 32px;
   padding-top: 16px;
   padding-bottom: 16px;
+  width: 429px;
   background: #1f81b9;
   border: 0px;
   border-radius: 12px;
