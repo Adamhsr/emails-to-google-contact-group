@@ -1,5 +1,17 @@
 html {
-  background-image:radial-gradient(100% 100% at 100% 0%, rgba(0, 94, 176, 0.9) 0%, rgba(0, 94, 176, 0) 100%), radial-gradient(100% 55% at 50% 100%, rgba(99, 223, 22, 0.76) 0%, rgba(54, 229, 160, 0.57) 25%, rgba(77, 232, 209, 0.38) 50%, rgba(190, 227, 248, 0) 100%), linear-gradient(90deg, #3182ce 0%, #4fd1c5 100%);
+  background-image: radial-gradient(
+      100% 100% at 100% 0%,
+      rgba(0, 94, 176, 0.9) 0%,
+      rgba(0, 94, 176, 0) 100%
+    ),
+    radial-gradient(
+      100% 55% at 50% 100%,
+      rgba(99, 223, 22, 0.76) 0%,
+      rgba(54, 229, 160, 0.57) 25%,
+      rgba(77, 232, 209, 0.38) 50%,
+      rgba(190, 227, 248, 0) 100%
+    ),
+    linear-gradient(90deg, #3182ce 0%, #4fd1c5 100%);
   background-size: 100% 100%;
   min-height: 100vh;
 
@@ -37,27 +49,33 @@ input {
   border: 2px #005daa solid;
   font-size: 20px;
   font-family: "open sans";
+  transition: 0.2s;
+}
+input:not(:focus):hover {
+  background: #e0e0e0;
+  border: 2px black solid;
 }
 
 button {
-  margin-top: 10px;
+  margin-top: 50px;
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 16px;
   padding-bottom: 16px;
-  width: 429px;
+  width: 431px;
   background: #1f81b9;
-  border: 0px;
+  border: 2px black solid;
   border-radius: 12px;
   color: white;
   font-size: 30px;
   font-family: "Open sans";
   font-weight: 700;
-  transition: 0.3s
+  transition: 0.3s;
 }
 button:hover {
   cursor: pointer;
-  background: #00679D;
+  background: #00679d;
+  border: 2px white solid;
 }
 
 .github {
