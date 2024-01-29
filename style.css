@@ -1,9 +1,9 @@
 html {
   background-image: radial-gradient(
-      100% 100% at 100% 0%,
-      rgba(0, 94, 176, 0.9) 0%,
-      rgba(0, 94, 176, 0) 100%
-    ),
+    100% 100% at 100% 0%,
+    rgba(0, 94, 176, 0.9) 0%,
+    rgba(0, 94, 176, 0) 100%
+  ),
     radial-gradient(
       100% 55% at 50% 100%,
       rgba(99, 223, 22, 0.76) 0%,
@@ -27,6 +27,13 @@ html {
   font-weight: 600;
   font-style: normal;
   padding: 0px 0px;
+
+  margin-top: 50px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 431px;
 }
 
 p {
@@ -76,6 +83,19 @@ button:hover {
   cursor: pointer;
   background: #00679d;
   border: 2px white solid;
+}
+
+.loading {
+  margin-top: 5px;
+  height: 10px;
+  width: 0%;
+  float: left;
+  transition-timing-function: linear;
+  transition: 8321ms;
+
+  background: black;
+  border-radius: 12px;
+  color: white;
 }
 
 .github {
