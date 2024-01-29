@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="src/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800&family=Poppins:ital,wght@0,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
@@ -18,10 +18,12 @@
     <p>Contact name</p>
     <input></input>
     <br />
-    <button>Generate Contact Group</button>
+    <button onclick='buttonFromEmails()'>Generate Contact Group</button>
+    <i class='loading'></i>
+
   </div>
 
-  <div class="github" onclick="window.open('https://github.com/cappydino');">
+  <div class="github" onclick="window.open('https://github.com/cappydino/emails-to-google-contact-group');">
     <i class="fa fa-github"></i>
     <p>github</p>
   </div>
